@@ -1,6 +1,7 @@
 name: Build setup guides
-on:
-  push:
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   push:
 jobs:
   build:
     runs-on: ubuntu-latest
